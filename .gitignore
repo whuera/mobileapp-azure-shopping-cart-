@@ -15,6 +15,7 @@ bin/
 gen/
 out/
 release/
+output-metadata.json
 
 # Gradle files
 .gradle/
@@ -39,6 +40,9 @@ captures/
 *.iml
 .idea/
 .DS_Store
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 
 # Keystore files
 *.jks
@@ -46,7 +50,11 @@ captures/
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
+.externalNativeBuild/
 .cxx/
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
+
+# Android Profiling
+*.hprof
